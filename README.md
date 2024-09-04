@@ -22,10 +22,10 @@ Below are the instructions for this assignment. Your repository should automatic
 
 ### 📝 TODO: Complete this section
 
-* **Your name and PID**:
+* **Your name and PID**: Jett Morrow jettmorrow
 
-* **Your partner's name and PID:**
+* **Your partner's name and PID:** Shuban Sridhar shubansridhar
 
-* **Link to selected coding challenge:**
+* **Link to selected coding challenge:** https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
 
-* **Summary of partner's interview feedback:**
+* **Summary of partner's interview feedback:** My partner told me I need to talk about my thoughts out loud more to really tell the interviewer what I am thinking and portray my thoughts. The coding of a technical interview is very important, but the interviewer also wants to see how you think and problem solve throughout a problem. Other than that I need to continue practicing leetcode style technical interview questions to better my skill set.
