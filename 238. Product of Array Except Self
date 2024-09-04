@@ -1,0 +1,23 @@
+class Solution {
+    public int[] productExceptSelf(int[] nums) {
+        int n = nums.length;
+        int[] res = new int[n];
+
+        //first I make elems in res the product of all the values to the left of current index
+        res[0] = 1;
+        for (int x = 1; x < n; x++) {
+            //left product is equal to the left product of the elem before times the elem before
+            res[x] = res[x - 1] * nums[x - 1];
+        }
+
+        //now I need to get the right product of everythign
+        //skip the most right elem
+        int rightProduct = nums[n - 1];
+        for (int x = n - 2; x >= 0; x--) {
+            res[x] = res[x] * rightProduct;
+            rightProduct *= nums[x];
+        }
+
+        return res;
+    }
+}
